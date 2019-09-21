@@ -26,6 +26,7 @@ def myNetwork():
     s3 = net.addSwitch('s3', cls=OVSKernelSwitch, failMode='standalone')
     s6 = net.addSwitch('s6', cls=OVSKernelSwitch, failMode='standalone')
     s2 = net.addSwitch('s2', cls=OVSKernelSwitch, failMode='standalone')
+
     info('*** Add hosts\n')
     h5 = net.addHost('h5', cls=Host, ip='33.111.44.5', defaultRoute=None)
     h3 = net.addHost('h3', cls=Host, ip='33.111.44.6', defaultRoute=None)
@@ -35,7 +36,8 @@ def myNetwork():
     h1 = net.addHost('h1', cls=Host, ip='33.111.44.10', defaultRoute=None)
     h8 = net.addHost('h8', cls=Host, ip='33.111.44.11', defaultRoute=None)
     h2 = net.addHost('h2', cls=Host, ip='33.111.44.12', defaultRoute=None)
- info( '*** Add links\n')
+
+    info( '*** Add links\n')
     net.addLink(s2, s1)
     net.addLink(s2, s3)
     net.addLink(s3, s4)
@@ -51,7 +53,8 @@ def myNetwork():
     net.addLink(s7, s8)
     net.addLink(s8, h7)
     net.addLink(s8, h8)
- info( '*** Starting network\n')
+
+    info( '*** Starting network\n')
     net.build()
     info( '*** Starting controllers\n')
     for controller in net.controllers:
