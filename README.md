@@ -43,7 +43,7 @@ MININET Y GIT
 * *cd mininet*
 * *git checkout -b 2.2.1 2.2.1*
 * *cd ..*
-* *mininet/util/install.sh 
+* *mininet/util/install.sh* 
 * Terminada la ejecución de este comando mostrará un mensaje como "Enjoy Mininet!"
 * Listo Ya estaría instalado el mininet en Ubuntu.  
 
@@ -58,13 +58,13 @@ Descarga del proyecto con Git en Máquina Virtual Ubuntu
 ## Ejecutar los comandos en la terminal Ubuntu
 * *cd Escritorio*
 * *cd Proyecto*
-* *git clone [https://github.com/nathalyvallejo/ProyectoIntegrador.git] (https://github.com/nathalyvallejo/ProyectoIntegrador.git) 
-* *cd ProyectoIntegrador*
-* *sudo python ProyectoCEN.py*
+* *git clone  https://github.com/nathalyvallejo/ProyectoCEN
+* *cd ProyectoCEN*
+* *sudo python ProyectoTopo.py*
 * Pedirá su contraseña en caso de tenerla
 * Y tendrá el proyecto de la topología realizada en mininet
 
-## Comandos para Consultar en Mininet sobre el ProyectoCEN.py
+## Comandos para Consultar en Mininet sobre el ProyectoTopo.py
 
 * Para comprobar el numero de dispositivos conectados utilice el comando *nodes*
 * Para ver como están conectados los dispositivos utilice el comando *net*
@@ -80,7 +80,7 @@ Descarga del proyecto con Git en Máquina Virtual Ubuntu
 
 
 ## Autores 🤓
-* **Nathaly Noemí Vallejo Pimentel** [nathalyvallejo](https://github.com/nathalyvallejo)
-* **Eduardo Andres Villon Suarez** [eduardovillon](https://github.com/eduardovillon)
-* **Cesar Joel Mayorga Muñoz** [cmayorgam](https://github.com/cmayorgam)
+* **Nathaly Noemí Vallejo Pimentel** [nvallejop](https://github.com/nvallejop/ProyectoCEN)
+* **Eduardo Andres Villon Suarez** [eduardovillon](https://github.com/eduardovillon/ProyectoCEN)
+* **Cesar Joel Mayorga Muñoz** [cmayorgam](https://github.com/cmayorgam/ProyectoCEN)
 
