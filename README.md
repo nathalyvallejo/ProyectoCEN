@@ -1,5 +1,8 @@
 # Proyecto Integrador-Implementación de Topología en Mininet
 
+![Topología_Imagen](https://user-images.githubusercontent.com/55612360/65429064-25026100-dddb-11e9-86c5-54fcfb3d300f.PNG)
+
+
 El presente proyecto es un script basado en python sobre la creación de  una topología que fué implementada en Mininet lo cuál permitirá ver sus conecciones a través de varios comandos que en lo posterior se indicará para ser puesto en funcionamiento.
 
 # Manual de Implementación 📋
